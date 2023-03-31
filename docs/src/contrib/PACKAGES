@@ -1,3 +1,12 @@
+Package: dbTools
+Version: 0.1.7
+Depends: R (>= 2.10)
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres,
+            RPostgreSQL, testthat, tictoc
+License: MIT + file LICENSE
+MD5sum: 6a98f601653af94ed1e3bc3c3bf45f3f
+NeedsCompilation: no
+
 Package: drat
 Version: 0.1.8
 Depends: R (>= 3.2.0)
