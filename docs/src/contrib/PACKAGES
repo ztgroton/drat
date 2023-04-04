@@ -1,8 +1,15 @@
+Package: cdmpLibrary
+Version: 0.1.1
+Depends: R (>= 2.10)
+Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, magrittr, purrr, rlang, RPostgreSQL, testthat, tictoc, tidyr
+License: MIT + file LICENSE
+MD5sum: 10d165fd1b160d8768373e87cabeb3b3
+NeedsCompilation: no
+
 Package: dbTools
 Version: 0.1.7
 Depends: R (>= 2.10)
-Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres,
-            RPostgreSQL, testthat, tictoc
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL, testthat, tictoc
 License: MIT + file LICENSE
 MD5sum: 6a98f601653af94ed1e3bc3c3bf45f3f
 NeedsCompilation: no
@@ -14,4 +21,18 @@ Imports: utils
 Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
+NeedsCompilation: no
+
+Package: shinyTWM
+Version: 0.1.10
+Imports: DT, purrr, rlang, shiny, shinyvs, shinyWidgets
+License: MIT + file LICENSE
+MD5sum: 1ae558b3818189f415363c0c4d01b15b
+NeedsCompilation: no
+
+Package: shinyTWM
+Version: 0.1.9
+Imports: DT, purrr, rlang, shiny, shinyvs, shinyWidgets
+License: MIT + file LICENSE
+MD5sum: 77a5134a78dc148754332ac8d5821de4
 NeedsCompilation: no
