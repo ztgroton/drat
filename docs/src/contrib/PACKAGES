@@ -25,6 +25,15 @@ License: MIT + file LICENSE
 MD5sum: aedf2cd59a3ce3f74fc188c0e49124a2
 NeedsCompilation: no
 
+Package: dbTools
+Version: 0.1.9
+Depends: R (>= 2.10)
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL,
+              testthat, tictoc
+License: MIT + file LICENSE
+MD5sum: 1a756fea1f53d49317c27399c2980658
+NeedsCompilation: no
+
 Package: drat
 Version: 0.1.8
 Depends: R (>= 3.2.0)
