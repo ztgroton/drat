@@ -8,6 +8,15 @@ MD5sum: 10d165fd1b160d8768373e87cabeb3b3
 NeedsCompilation: no
 
 Package: dbTools
+Version: 0.1.10
+Depends: R (>= 2.10)
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL,
+              testthat, tictoc
+License: MIT + file LICENSE
+MD5sum: 5e0506bcc145e4f5dcfdb1c84b9370f0
+NeedsCompilation: no
+
+Package: dbTools
 Version: 0.1.7
 Depends: R (>= 2.10)
 Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL,
