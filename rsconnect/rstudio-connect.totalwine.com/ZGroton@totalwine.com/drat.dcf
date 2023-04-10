@@ -5,7 +5,7 @@ account: ZGroton@totalwine.com
 server: rstudio-connect.totalwine.com
 hostUrl: https://rstudio-connect.totalwine.com/__api__
 appId: 201
-bundleId: 1121
-url: https://rstudio-connect.totalwine.com/content/759f7069-fdcc-4c76-9efd-bf958c127844/
-when: 1680375540.86954
-lastSyncTime: 1680375540.86955
+bundleId: 1124
+url: https://rstudio-connect.totalwine.com/drat/
+when: 1680630493.38434
+lastSyncTime: 1680630493.38435
