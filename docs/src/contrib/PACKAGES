@@ -90,6 +90,13 @@ MD5sum: 0fe5aa2498fdde1b4860ab249b1fa3ff
 NeedsCompilation: no
 
 Package: shinyTWM
+Version: 0.1.13
+Imports: dplyr, DT, lubridate, magrittr, purrr, readr, rlang, shiny, shinyvs, shinyWidgets, tidyr
+License: MIT + file LICENSE
+MD5sum: d61373fc69d993742dee4b233fcdce44
+NeedsCompilation: no
+
+Package: shinyTWM
 Version: 0.1.9
 Imports: DT, purrr, rlang, shiny, shinyvs, shinyWidgets
 License: MIT + file LICENSE
