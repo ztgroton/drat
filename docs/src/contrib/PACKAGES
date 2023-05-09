@@ -7,6 +7,15 @@ License: MIT + file LICENSE
 MD5sum: 10d165fd1b160d8768373e87cabeb3b3
 NeedsCompilation: no
 
+Package: cdmpLibrary
+Version: 0.1.2
+Depends: R (>= 3.5.0)
+Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang,
+            RPostgreSQL, testthat, tictoc, tidyr
+License: MIT + file LICENSE
+MD5sum: 22e9f5508181da74d7fcb69ba08a8f33
+NeedsCompilation: no
+
 Package: customUPC
 Version: 0.1.0
 Imports: data.table, DBI, dbTools, dplyr, magrittr, partitions, purrr, readr, rlang, stringr, tidyr, writexl
