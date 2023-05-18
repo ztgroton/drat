@@ -138,6 +138,14 @@ License: MIT + file LICENSE
 MD5sum: b4198190c3c2a86057f979d082ae4d36
 NeedsCompilation: no
 
+Package: marketPosData
+Version: 0.1.3
+Imports: bigrquery, cdmpLibrary, DBI, dbTools, dbx, dplyr, glue, lubridate, magrittr, purrr,
+           readr, rlang, tictoc
+License: MIT + file LICENSE
+MD5sum: d16225ba851b7f082784fdf558c3b636
+NeedsCompilation: no
+
 Package: shinyTWM
 Version: 0.1.10
 Imports: DT, purrr, rlang, shiny, shinyvs, shinyWidgets
