@@ -1,8 +1,7 @@
 Package: cdmpLibrary
 Version: 0.1.1
 Depends: R (>= 2.10)
-Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, magrittr, purrr, rlang, RPostgreSQL, testthat,
-             tictoc, tidyr
+Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, magrittr, purrr, rlang, RPostgreSQL, testthat, tictoc, tidyr
 License: MIT + file LICENSE
 MD5sum: 10d165fd1b160d8768373e87cabeb3b3
 NeedsCompilation: no
@@ -10,8 +9,8 @@ NeedsCompilation: no
 Package: cdmpLibrary
 Version: 0.1.2
 Depends: R (>= 3.5.0)
-Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang,
-             RPostgreSQL, testthat, tictoc, tidyr
+Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang, RPostgreSQL, testthat,
+               tictoc, tidyr
 License: MIT + file LICENSE
 MD5sum: 22e9f5508181da74d7fcb69ba08a8f33
 NeedsCompilation: no
@@ -19,8 +18,8 @@ NeedsCompilation: no
 Package: cdmpLibrary
 Version: 0.1.3
 Depends: R (>= 3.5.0)
-Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang,
-             RPostgreSQL, testthat, tictoc, tidyr
+Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang, RPostgreSQL, testthat,
+               tictoc, tidyr
 License: MIT + file LICENSE
 MD5sum: 4983ee122df7e38cdb2b6cfd6f9f34db
 NeedsCompilation: no
@@ -28,8 +27,8 @@ NeedsCompilation: no
 Package: cdmpLibrary
 Version: 0.1.4
 Depends: R (>= 3.5.0)
-Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang,
-             RPostgreSQL, testthat, tictoc, tidyr
+Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang, RPostgreSQL, testthat,
+               tictoc, tidyr
 License: MIT + file LICENSE
 MD5sum: fc129f275634c1433a8845c0bedb62b6
 NeedsCompilation: no
@@ -37,8 +36,8 @@ NeedsCompilation: no
 Package: cdmpLibrary
 Version: 0.1.5
 Depends: R (>= 3.5.0)
-Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang,
-             RPostgreSQL, testthat, tictoc, tidyr
+Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang, RPostgreSQL, testthat,
+               tictoc, tidyr
 License: MIT + file LICENSE
 MD5sum: 21be461cb646610ca4622ec961060d28
 NeedsCompilation: no
@@ -46,8 +45,8 @@ NeedsCompilation: no
 Package: cdmpLibrary
 Version: 0.1.6
 Depends: R (>= 3.5.0)
-Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang,
-             RPostgreSQL, testthat, tictoc, tidyr
+Imports: bigrquery, config, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang, RPostgreSQL, testthat,
+               tictoc, tidyr
 License: MIT + file LICENSE
 MD5sum: 7bfb822f3c578e1421338a83e2bae8b8
 NeedsCompilation: no
@@ -55,8 +54,8 @@ NeedsCompilation: no
 Package: cdmpLibrary
 Version: 0.1.7
 Depends: R (>= 3.5.0)
-Imports: bigrquery, config, data.table, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang,
-             RPostgreSQL, testthat, tictoc, tidyr
+Imports: bigrquery, config, data.table, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang, RPostgreSQL,
+               testthat, tictoc, tidyr
 License: MIT + file LICENSE
 MD5sum: 75af4db67c2a5f7766ec40a32ec4370c
 NeedsCompilation: no
@@ -64,10 +63,19 @@ NeedsCompilation: no
 Package: cdmpLibrary
 Version: 0.1.8
 Depends: R (>= 3.5.0)
-Imports: bigrquery, config, data.table, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang,
-             RPostgreSQL, testthat, tictoc, tidyr
+Imports: bigrquery, config, data.table, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang, RPostgreSQL,
+               testthat, tictoc, tidyr
 License: MIT + file LICENSE
 MD5sum: 9bd44404c30edf8f52ca04a2ded9a8b8
+NeedsCompilation: no
+
+Package: cdmpLibrary
+Version: 0.1.9
+Depends: R (>= 3.5.0)
+Imports: bigrquery, config, data.table, DBI, dbTools, dbx, digest, dplyr, glue, jsonlite, magrittr, purrr, readr, rlang, RPostgreSQL,
+               testthat, tictoc, tidyr
+License: MIT + file LICENSE
+MD5sum: 1d8645136cedab671d7e4436b1c8e7a3
 NeedsCompilation: no
 
 Package: customUPC
@@ -80,8 +88,8 @@ NeedsCompilation: no
 Package: dbTools
 Version: 0.1.10
 Depends: R (>= 2.10)
-Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres,
-             RPostgreSQL, testthat, tictoc
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL, testthat,
+               tictoc
 License: MIT + file LICENSE
 MD5sum: 5e0506bcc145e4f5dcfdb1c84b9370f0
 NeedsCompilation: no
@@ -89,8 +97,8 @@ NeedsCompilation: no
 Package: dbTools
 Version: 0.1.11
 Depends: R (>= 2.10)
-Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres,
-             RPostgreSQL, testthat, tictoc
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL, testthat,
+               tictoc
 License: MIT + file LICENSE
 MD5sum: 7d0192c7430c9e448d898d490b002031
 NeedsCompilation: no
@@ -98,8 +106,8 @@ NeedsCompilation: no
 Package: dbTools
 Version: 0.1.7
 Depends: R (>= 2.10)
-Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres,
-             RPostgreSQL, testthat, tictoc
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL, testthat,
+               tictoc
 License: MIT + file LICENSE
 MD5sum: 6a98f601653af94ed1e3bc3c3bf45f3f
 NeedsCompilation: no
@@ -107,8 +115,8 @@ NeedsCompilation: no
 Package: dbTools
 Version: 0.1.8
 Depends: R (>= 2.10)
-Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres,
-             RPostgreSQL, testthat, tictoc
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL, testthat,
+               tictoc
 License: MIT + file LICENSE
 MD5sum: aedf2cd59a3ce3f74fc188c0e49124a2
 NeedsCompilation: no
@@ -116,8 +124,8 @@ NeedsCompilation: no
 Package: dbTools
 Version: 0.1.9
 Depends: R (>= 2.10)
-Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres,
-             RPostgreSQL, testthat, tictoc
+Imports: bigrquery, config, data.table, DBI, dbx, dplyr, glue, magrittr, odbc, purrr, readr, rlang, RPostgres, RPostgreSQL, testthat,
+               tictoc
 License: MIT + file LICENSE
 MD5sum: 1a756fea1f53d49317c27399c2980658
 NeedsCompilation: no
