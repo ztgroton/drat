@@ -246,3 +246,11 @@ Imports: dplyr, DT, lubridate, magrittr, purrr, readr, rlang, shiny, shinyWidget
 License: MIT + file LICENSE
 MD5sum: ed2ab1074323a3f8c7185585855e4bce
 NeedsCompilation: no
+
+Package: shinyTWM
+Version: 0.2.2
+Depends: R (>= 3.5.0)
+Imports: dplyr, DT, lubridate, magrittr, purrr, readr, rlang, shiny, shinyWidgets, tidyr
+License: MIT + file LICENSE
+MD5sum: fd9876e05be59429bb5d37f384882ec7
+NeedsCompilation: no
